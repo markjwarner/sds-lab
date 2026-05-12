@@ -1,0 +1,16 @@
+url: "https://markjwarner.github.io"
+baseurl: "/sds-lab" # This MUST match your new repository name exactly
+
+title: "UCL's Safer Digital Services Lab"
+description: "Creating safer online platforms and communities through research."
+url: ""
+
+collections:
+  people:
+    output: false
+  previous_people:
+    output: false
+  research:
+    output: true
+  news:
+    output: true

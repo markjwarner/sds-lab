@@ -1,0 +1,6 @@
+---
+title: "Promotion to Senior Research Fellow"
+summary: "Dr Catherine O'Brien was promoted to Senior Research Fellow!"
+img: "https://sec.cs.ucl.ac.uk/images/cathy.jpg"
+---
+Congratulations to Catherine for her hard work and dedication. She will be continuing her vital research at the intersection of gender, digital safety, and technology policy. Her expanded role will involve overseeing the new cohort of PhD researchers and driving the strategic direction of our international policy engagements over the next five years. We are incredibly proud of her achievements.
