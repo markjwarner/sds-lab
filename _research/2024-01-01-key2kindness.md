@@ -17,9 +17,11 @@ img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-key
 
 <p>Finally, prompts with and without time delays were tested to understand the impact of adding friction into the process of sending a message where toxic content is detected. The findings highlight the benefits of prompting users proactively, and while changes in the design did impact efficacy, the simple presence of a prompt had the most effect in reducing toxicity of content. The findings also highlight the potential for these types of prompts to enhance awareness around platform rules, and to act as “in the moment” educational resources to inform and support users when interacting online.</p>
 
-<h3 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Publications</h3>
-<p class="mb-4">Warner, M., Strohmayer, A., Higgs, M., & Coventry, L. (2024). <strong><a href="https://arxiv.org/abs/2401.10629" class="text-violetAccent hover:underline">A Critical Reflection on the Use of Toxicity Detection Algorithms in Proactive Content Moderation Systems.</a></strong> International Journal of Human-Computer Studies, 198, 103468.</p>
-<p class="mb-4">Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024). <strong><a href="https://arxiv.org/abs/2401.10627" class="text-violetAccent hover:underline">Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard.</a></strong> arXiv preprint arXiv:2401.10627.</p>
+## Publications
 
-<h3 class="text-2xl font-bold text-slate-900 mt-10 mb-4">In Media and Mentions</h3>
-<p>This research has been mentioned by the Tech and Social Cohesion Network, <a href="https://techandsocialcohesion.substack.com/p/could-we-stop-toxic-content-before" class="text-violetAccent hover:underline">read article.</a></p>
+Warner, M., Strohmayer, A., Higgs, M., & Coventry, L. (2024). **[A Critical Reflection on the Use of Toxicity Detection Algorithms in Proactive Content Moderation Systems.](https://arxiv.org/abs/2401.10629)** International Journal of Human-Computer Studies, 198, 103468.
+
+Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024b). [Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024). **[Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard.](https://arxiv.org/abs/2401.10627)** arXiv preprint arXiv:2401.10627.
+
+## In media and mentions
+This research has been mentioned by the Tech and Social Cohesion Network, [read article.](https://techandsocialcohesion.substack.com/p/could-we-stop-toxic-content-before)
