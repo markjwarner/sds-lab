@@ -1,5 +1,5 @@
 ---
-title: "UseCRT - User experience and usability of Content Reporting Tools in online social media platforms and their user-to-user messaging services"
+title: "Reimagining content report tools"
 desc: "This project will evaluate the user experience and usability of user content reporting tools in the most popular social media platforms and their user-to-user messaging services, investigated within the context of online harassment as defined by the platforms themselves."
 img: "https://www.aimtechnologies.co/wp-content/uploads/2024/09/best-social-media-reporting-tools.png"
 ---
