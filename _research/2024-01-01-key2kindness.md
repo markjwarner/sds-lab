@@ -21,7 +21,7 @@ img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-key
 
 Warner, M., Strohmayer, A., Higgs, M., & Coventry, L. (2024). **[A Critical Reflection on the Use of Toxicity Detection Algorithms in Proactive Content Moderation Systems.](https://arxiv.org/abs/2401.10629)** International Journal of Human-Computer Studies, 198, 103468.
 
-Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024b). [Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024). **[Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard.](https://arxiv.org/abs/2401.10627)** arXiv preprint arXiv:2401.10627.
+Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024). **[Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard.](https://arxiv.org/abs/2401.10627)** arXiv preprint arXiv:2401.10627.
 
 ## In media and mentions
 This research has been mentioned by the Tech and Social Cohesion Network, [read article.](https://techandsocialcohesion.substack.com/p/could-we-stop-toxic-content-before)
