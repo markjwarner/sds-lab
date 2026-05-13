@@ -34,6 +34,14 @@
             @apply opacity-80 underline;
         }
 
+            /* Specifically ensure the modal links from the screenshot are covered */
+            #modal-body a, 
+            #modal-body p a {
+                color: #9933FF !important;
+                font-weight: 700 !important;
+                display: inline; /* Ensures they don't break onto new lines accidentally */
+        }
+
         body { @apply font-inter antialiased bg-slate-50 text-slate-900; }
         .fade-in-section {
             opacity: 0;
