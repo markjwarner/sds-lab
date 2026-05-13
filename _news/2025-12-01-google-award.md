@@ -1,6 +1,7 @@
 ---
 title: "Google funding to co-design AI-enhanced reporting tools"
 summary: " We won Google funding for a project that looks at integration of LLMs within privacy harm reporting systems"
+news: 2025-12-01
 img: "https://searchengineland.com/wp-content/seloads/2015/10/google-earnings-stock2-ss-1920.jpg"
 ---
 # Co-designing AI-enhanced reporting tools for complex privacy harms
