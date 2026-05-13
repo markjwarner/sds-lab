@@ -172,8 +172,15 @@
                 {% endfor %}
             ],
             research: [
-                {% for project in site.research %}
-                { title: {{ project.title | jsonify }}, desc: {{ project.desc | jsonify }}, details: {{ project.content | jsonify }}, img: {{ project.img | jsonify }} }{% unless forloop.last %},{% endunless %}
+                {% assign sorted_research = site.research | sort: 'date' | reverse %}
+                {% for project in sorted_research %}
+                { 
+                    title: {{ project.title | jsonify }}, 
+                    date: "{{ project.date | date: '%b %Y' }}",
+                    desc: {{ project.desc | jsonify }}, 
+                    details: {{ project.content | jsonify }}, 
+                    img: {{ project.img | jsonify }} 
+                }{% unless forloop.last %},{% endunless %}
                 {% endfor %}
             ],
             news: [
@@ -213,10 +220,11 @@
             <div class="relative group w-[85vw] md:w-[450px] flex-none min-h-[26rem] rounded-[2rem] overflow-hidden bg-violetAccent/20 shadow-2xl border-2 border-white/40 cursor-pointer transition-all duration-500 flex flex-col snap-center" onclick="openContentModal('research', ${index})">
                 <img src="${project.img}" alt="${project.title}" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-30 group-hover:scale-105 transition-all duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-violetAccent via-violetAccent/40 to-transparent opacity-90 pointer-events-none"></div>
-                <div class="absolute top-6 right-6 text-white bg-white/20 p-2 rounded-full backdrop-blur-md transition-transform duration-500 toggle-icon shadow-md">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </div>
+                
                 <div class="relative h-full flex flex-col justify-end p-8 md:p-10 text-white mt-auto z-10">
+                    <!-- Added Date Display Below -->
+                    <span class="text-white/80 font-bold mb-2 tracking-wider text-xs uppercase">${project.date}</span>
+                    
                     <h3 class="text-3xl font-bold mb-3 tracking-tight pr-8 leading-tight transition-transform duration-500 group-hover:-translate-y-2">${project.title}</h3>
                     <div class="overflow-hidden max-h-0 opacity-0 group-hover:max-h-32 group-hover:opacity-100 transition-all duration-500 ease-out">
                         <p class="text-violet-100 text-base leading-relaxed mt-2 drop-shadow-lg">${project.desc}</p>

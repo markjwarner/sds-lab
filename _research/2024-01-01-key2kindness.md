@@ -1,5 +1,6 @@
 ---
 title: "Key2Kindness: A cross-platform proactive content moderation system"
+date: 2024-01-01
 desc: "key2Kindness project is interested in understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms."
 img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-keyboard.jpg?quality=82&strip=all"
 ---
