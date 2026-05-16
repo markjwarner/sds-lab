@@ -3,7 +3,7 @@ title: "Designing proactive content moderation mechanisms"
 people: ["Mark Warner"]
 date: 2024-01-01
 themes: ["Technical Governance Mechanisms", "Usable Privacy"]
-desc: "This area of research is interested in understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms."
+desc: "This project aimed to understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms."
 img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-keyboard.jpg?quality=82&strip=all"
 ---
 <p>The key2Kindness project is interested in understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms. It takes a critical approach, working with stakeholders to understand the potential risks and unintended harms of these systems. Finally, through engagement with stakeholders, it will evaluate several proactive content moderation interaction design factors through an experimental design and qualitative user interviews.</p>
