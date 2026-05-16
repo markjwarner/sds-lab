@@ -515,6 +515,11 @@
             const content = document.getElementById('content-modal-content');
             
             modal.classList.remove('hidden');
+
+            // 2. Reset the scroll position to the top
+            const scrollArea = document.querySelector('#content-modal-content .overflow-y-auto');
+            if (scrollArea) scrollArea.scrollTop = 0;
+
             setTimeout(() => {
                 modal.classList.remove('opacity-0');
                 modal.classList.add('opacity-100');
