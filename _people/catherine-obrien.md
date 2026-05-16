@@ -2,7 +2,7 @@
 name: "Catherine O'Brien"
 role: "Senior Research Fellow"
 short: "Analysing platform governance frameworks and co-designing novel user reporting tools."
-img: "https://sec.cs.ucl.ac.uk/images/cathy.jpg"
+img: "images/catherine-obrien.jpg"
 ---
 Catherine (Cathy) O'Brien is a Research Fellow in Human-Computer Interaction (HCI) involved in the collection, analysis, and dissemination of qualitative research for two research projects in the Information Security Group at the Department of Computer Science:
  

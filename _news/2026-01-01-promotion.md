@@ -1,5 +1,5 @@
 ---
-title: "Promotion to Senior Research Fellow"
+title: "Dr Catherine O'Brien is Promoted"
 summary: "Dr Catherine O'Brien was promoted to Senior Research Fellow!"
 news: 2026-01-01
 img: "https://sec.cs.ucl.ac.uk/images/cathy.jpg"
