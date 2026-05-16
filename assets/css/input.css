@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { 
+    @apply font-inter antialiased bg-slate-50 text-slate-900; 
+  }
+  a {
+    @apply text-violetAccent font-bold transition-all duration-200;
+  }
+  a:hover {
+    @apply opacity-80 underline;
+  }
+}
+
+@layer components {
+  /* Scrollbars */
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar { width: 8px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 20px; }
+
+  /* Sankey Links */
+  .sankey-link {
+    transition: stroke-width 0.4s ease-out, stroke-opacity 0.4s ease-out;
+    stroke-opacity: 0.25;
+  }
+  .sankey-link.active {
+    stroke-opacity: 0.85;
+    stroke-width: 5px !important;
+  }
+  .sankey-link.dimmed {
+    stroke-opacity: 0.05;
+  }
+
+  /* Fade-in */
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Modal link overrides */
+#modal-body a, 
+#modal-body p a {
+  color: #9933FF !important;
+  font-weight: 700 !important;
+  display: inline;
+}

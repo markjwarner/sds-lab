@@ -1,6 +1,7 @@
 ---
-name: "Dr. Mark Warner"
+name: "Mark Warner"
 role: "Associate Professor"
-bio: "Researching human-centric approaches to security, privacy, and online trust."
+short: "Researching human-centric approaches to security, privacy, and online trust."
 img: "https://sec.cs.ucl.ac.uk/images/Mark.png"
 ---
+Mark Warner is a ....

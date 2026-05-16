@@ -1,6 +1,8 @@
 ---
 title: "Reimagining content report tools"
+people: ["Mark Warner", "Catherine O'Brien", "Nuur Alifah Roslan"]
 date: 2026-01-01
+themes: ["Technical Governance Mechanisms", "Platform Governance"]
 desc: "This area of work is exploring the user experience and usability of user content reporting tools in the most popular social media platforms and their user-to-user messaging services, investigated within the context of online harassment as defined by the platforms themselves. It looks to develop novel reorting mechanisms that address users needs and leverage advances in AI in an ethical and responsible way."
 img: "https://www.aimtechnologies.co/wp-content/uploads/2024/09/best-social-media-reporting-tools.png"
 ---
@@ -23,7 +25,3 @@ Our work has currently been focused on the analysis of platform governance relat
 <img src="https://sec.cs.ucl.ac.uk/images/UseCRT_Table.png" alt="Table showing harms across five online dating applications" style="width: 100u%; border-radius: 10px;">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jgQZvmcCvyk?si=9E9WvjiPBRRCX7LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Publications
-
-O'Brien, C., Roslan, N. A., Abu-Salma, R., Murdoch, S., Zytko, D., & Warner, M. (2025). **[Online Dating Platform Safeguards and Self-Protection: How Dating Platforms Characterise, Respond to, and Safeguard Against Harms.](https://doi.org/10.1145/3706599.3719825)** In Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (Vol. 2025). Association for Computing Machinery (ACM).

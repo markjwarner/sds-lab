@@ -1,6 +1,8 @@
 ---
 title: "Designing proactive content moderation mechanisms"
+people: ["Mark Warner"]
 date: 2024-01-01
+themes: ["Technical Governance Mechanisms", "Usable Privacy"]
 desc: "This area of research is interested in understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms."
 img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-keyboard.jpg?quality=82&strip=all"
 ---
@@ -16,12 +18,6 @@ img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-key
 </div>
 
 <p>Finally, prompts with and without time delays were tested to understand the impact of adding friction into the process of sending a message where toxic content is detected. The findings highlight the benefits of prompting users proactively, and while changes in the design did impact efficacy, the simple presence of a prompt had the most effect in reducing toxicity of content. The findings also highlight the potential for these types of prompts to enhance awareness around platform rules, and to act as “in the moment” educational resources to inform and support users when interacting online.</p>
-
-## Publications
-
-Warner, M., Strohmayer, A., Higgs, M., & Coventry, L. (2024). **[A Critical Reflection on the Use of Toxicity Detection Algorithms in Proactive Content Moderation Systems.](https://arxiv.org/abs/2401.10629)** International Journal of Human-Computer Studies, 198, 103468.
-
-Warner, M., Strohmayer, A., Higgs, M., Rafiq, H., Yang, L., & Coventry, L. (2024). **[Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard.](https://arxiv.org/abs/2401.10627)** arXiv preprint arXiv:2401.10627.
 
 ## In media and mentions
 This research has been mentioned by the Tech and Social Cohesion Network, [read article.](https://techandsocialcohesion.substack.com/p/could-we-stop-toxic-content-before)

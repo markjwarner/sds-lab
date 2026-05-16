@@ -1,23 +1,237 @@
-- authors: "Kaleva, I., Frik, A., Mekioussa Malki, L., Warner, M., & Abu-Salma, R."
+- project: "Usable privacy in female health technologies"
+  authors: "Kaleva, Ina; Frik, Alisa; Malki, Lisa; Warner, Mark; Abu-Salma, Ruba"
+  title: "“I don’t think it needs to be political”: Privacy Experiences and Concerns of FemHealth App Users in the United States"
   year: 2026
-  title: "“I don't think it needs to be political”: Privacy Experiences and Concerns of FemHealth App Users in the United States"
-  journal: "Proceedings on Privacy Enhancing Technologies (PoPETs)"
-  link: "#"
+  journal: "Proceedings on Privacy Enhancing Technologies YYYY (X)"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10219661/1/kaleva-et-al_2026_i-dont-think-it-needs-to-be-political_privacy-experiences-and-concerns-of-femhealth-app-users-in-the-united-states.pdf"
 
-- authors: "Beadle, K., Warner, M., & Vasek, M."
+- project: ""
+  authors: "Seymour, William; Alt, Florian; Benenson, Zinaida; Grimme, Sophie; Karegar, Farzaneh; Poikela, Maija; Rossi, Arianna; Warner, Mark"
+  title: "Moving Beyond Clicks: Rethinking Consent and User Control in the Age of AI"
+  year: 2026
+  journal: "ACM"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3772363.3778697"
+
+- project: ""
+  authors: "Warner, Mark; Abreu, Valeria Minero; O'Brien, Catherine"
+  title: "Police Officers Are Not the Enemy: Applying Usable Security Knowledge and Principles to Digital Device Triage in Policing"
+  year: 2026
+  journal: "A Festschrift Symposium for Professor Angela Sasse"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10222551/1/Sassefest-7.pdf"
+
+- project: "Designing proactive content moderation mechanisms"
+  authors: "Warner, Mark; Strohmayer, Angelika; Higgs, Matthew; Coventry, Lynne"
+  title: "A Critical Reflection on the Use of Toxicity Detection Algorithms in Proactive Content Moderation Systems"
   year: 2025
-  title: "'Edit: I'm sorry for being offensive, this is getting downvoted and I feel terrible': Implicit Social Norms as Governance in Identity-Based Communities"
+  journal: "Journal of Human-Computer Studies"
+  link: "https://www.sciencedirect.com/science/article/pii/S1071581925000254"
+
+- project: ""
+  authors: "Beadle, Kyle; Warner, Mark; Vasek, Marie"
+  title: "“Edit: I’m sorry for being offensive, this is getting downvoted and I feel terrible”: Implicit Social Norms as Governance in Identity-Based Communities"
+  year: 2025
   journal: "Proceedings of the ACM on Human-Computer Interaction"
-  link: "#"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3710900"
 
-- authors: "O'Brien, C. R., Roslan, N. A., Murdoch, S. J., Abu-Salma, R., Zytko, D., & Warner, M."
-  year: 2025
+- project: "Reimagining content report tools"
+  authors: "O'Brien, Catherine; Roslan, Nuur Alifah; Abu-Salma, Ruba; Murdoch, Steven; Zytko, Douglas; Warner, Mark"
   title: "Online Dating Platform Safeguards and Self-Protection: How Dating Platforms Characterise, Respond to, and Safeguard Against Harms"
-  journal: "CHI Conference on Human Factors in Computing Systems"
+  year: 2025
+  journal: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3706599.3719825"
+
+- project: ""
+  authors: "Scott, Lauren; Warner, Mark; Coventry, Lynne; Cecchinato, Marta E"
+  title: "Accidental Spreaders: How Different Roles Interact During Misinformation Discussions"
+  year: 2025
+  journal: "Proceedings of the 23rd EUSSET Conference on Computer Supported Cooperative Work"
+  link: "https://researchportal.northumbria.ac.uk/files/197193207/ecscw2025_cp01.pdf"
+
+- project: ""
+  authors: "Malki, Lisa Mekioussa; Polamarasetty, Akhil; Hatamian, Majid; Costanza, Enrico; Warner, Mark"
+  title: "``Hoovered up as a data point'': Exploring Privacy Behaviours, Awareness, and Concerns Among UK Users of LLM-based Conversational Agents"
+  year: 2025
+  journal: "Proceedings on Privacy Enhancing Technologies"
+  link: "https://petsymposium.org/popets/2025/popets-2025-0160.pdf"
+
+- project: ""
+  authors: "Shulman, Yefim; Kitkowska, Agnieszka; Warner, Mark; Meyer, Joachim"
+  title: "Conceal or reveal:(non) disclosure choices in online information sharing"
+  year: 2024
+  journal: "Behaviour & Information Technology"
+  link: "https://www.tandfonline.com/doi/pdf/10.1080/0144929X.2024.2304613"
+
+- project: "Designing proactive content moderation mechanisms"
+  authors: "Warner, Mark; Strohmayer, Angelika; Higgs, Matthew; Rafiq, Husnain; Yang, Liying; Coventry, Lynne"
+  title: "Key to Kindness: Reducing Toxicity In Online Discourse Through Proactive Content Moderation in a Mobile Keyboard"
+  year: 2024
+  journal: "arXiv preprint arXiv:2401.10627"
+  link: "https://arxiv.org/pdf/2401.10627"
+
+- project: ""
+  authors: "Warner, Mark; Gibbs, Jo; Blandford, Ann"
+  title: "Shifting Norms and Value Conflicts: Exploring the Effects of HIV Status Disclosure Fields in Sex-Social Apps"
+  year: 2024
+  journal: "Archives of Sexual Behavior"
+  link: "https://link.springer.com/article/10.1007/s10508-023-02801-5"
+
+- project: ""
+  authors: "Gomula, Julia; Warner, Mark; Blandford, Ann"
+  title: "Women’s use of online health and social media resources to make sense of their polycystic ovary syndrome (PCOS) diagnosis: a qualitative study"
+  year: 2024
+  journal: "BMC Women's Health"
+  link: "https://link.springer.com/article/10.1186/s12905-024-02993-5"
+
+- project: "Usable privacy in female health technologies"
+  authors: "Malki, Lisa; Kaleva, Ina; Patel, Dilisha; Warner, Mark; Abu-Salma, Ruba"
+  title: "Exploring Privacy Practices of Female mHealth Apps in a Post-Roe World"
+  year: 2024
+  journal: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3613904.3642521"
+
+- project: ""
+  authors: "Maestre, Juan F; Claisse, Caroline; Strohmayer, A; Warner, M; Durrant, A; Wydall, Sarah; Jones, Deborah"
+  title: "Conducting Interdisciplinary Research with Vulnerable Populations in Computing: Challenges, Practices, and Lessons Learned"
+  year: 2024
+  journal: "ECSCW--European Conference on Computer-Supported Cooperative Work"
+  link: "https://dl.eusset.eu/bitstreams/3759163b-beb4-4443-ae1f-aeea22b4afab/download"
+
+- project: ""
+  authors: "Scott, Lauren; E. Cecchinato, Marta; Coventry, Lynne; Warner, Mark"
+  title: "Evaluating the Effects of Culture and Relationship Strength on Misinformation Challenging Behaviours Within the UK"
+  year: 2023
+  journal: "IFIP Conference on Human-Computer Interaction"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10190868/1/Warner_Evaluating%20the%20Effects%20of%20Culture%20and%20Relationship%20Strength%20on%20Misinformation%20Challenging%20Behaviours%20Within%20the%20UK.pdf"
+
+- project: ""
+  authors: "Scott, Lauren; Coventry, Lynne; Cecchinato, Marta E; Warner, Mark"
+  title: "“I figured her feeling a little bit bad was worth it to not spread that kind of hate”: Exploring how UK families discuss and challenge misinformation"
+  year: 2023
+  journal: "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3544548.3581202"
+
+- project: ""
+  authors: "Patel, Dilisha; Pendse, Sachin; De Choudhury, Munmun; Dsane, Sarah; Kruzan, Kaylee Payne; Kumar, Neha; Singh, Aneesha; Warner, Mark"
+  title: "Information-Seeking, Finding Identity: Exploring the Role of Online Health Information in Illness Experience"
+  year: 2022
+  journal: "Companion Publication of the 2022 Conference on Computer Supported Cooperative Work and Social Computing"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3500868.3560483"
+
+- project: ""
+  authors: "Warner, Mark; Lascau, Laura; Cox, Anna; Brumby, Duncan; Blandford, Ann"
+  title: "“Oops...”: Mobile Message Deletion in Conversation Error and Regret Remediation"
+  year: 2021
+  journal: "CHI '21 Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3411764.3445118"
+
+- project: ""
+  authors: "Higgs, Matthew; McCallum, Claire; Sutton, Selina; Warner, Mark"
+  title: "RE-AIMing Predictive Text"
+  year: 2021
+  journal: "Association for Computational Linguistics"
   link: "#"
 
-- authors: "Warner, M., Maestre, J. F., Gibbs, J., Chung, C. F., & Blandford, A."
-  year: 2019
+- project: ""
+  authors: "Allsopp, Rachel; Bessant, Claire; Dawda, Sneha; Emmett, Charlotte; Higgs, Matthew; Janjeva, Ardi; Li, Guangquan; Oswald, Marion; Sutton, Selina; Warner, Mark"
+  title: "OMDDAC Snapshot Report 1: Data-driven Public Policy"
+  year: 2021
+  journal: "OMDDAC"
+  link: "#"
+
+- project: ""
+  authors: "Dawda, Sneha; Allsopp, Rachel; Bessant, Claire; Emmett, Charlotte; Higgs, Matthew; Janjeva, Ardi; Oswald, Marion; Li, Guangquan; Sutton, Selina; Warner, Mark"
+  title: "OMDDAC Snapshot Report 2: Tech-driven approaches to Public Health"
+  year: 2021
+  journal: "OMDDAC"
+  link: "#"
+
+- project: ""
+  authors: "Janjeva, Ardi; Allsopp, Rachel; Bessant, Claire; Dawda, Sneha; Emmett, Charlotte; Higgs, Matthew; Li, Guangquan; Oswald, Marion; Sutton, Selina; Warner, Mark"
+  title: "OMDDAC Snapshot Report 3: Policing and Public Safety"
+  year: 2021
+  journal: "OMDDAC"
+  link: "#"
+
+- project: ""
+  authors: "Allsopp, Rachel; Bessant, Claire; Ditcham, Keith; Janjeva, Ardi; Li, Guangquan; Oswald, Marion; Warner, Mark"
+  title: "Observing data-driven approaches to Covid-19: Reflections from a distributed, remote, interdisciplinary research project"
+  year: 2021
+  journal: "Journal of Legal Research Methodology"
+  link: "https://journals.northumbria.ac.uk/index.php/jlrm/article/download/1160/1533"
+
+- project: ""
+  authors: "Warner, Mark; Kitkowska, Agnieszka; Gibbs, Jo; Maestre, J; Blandford, Ann"
+  title: "Evaluating 'Prefer not to say' Around Sensitive Disclosures"
+  year: 2020
+  journal: "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3313831.3376150"
+
+- project: ""
+  authors: "Kitkowska, Agnieszka; Warner, Mark; Shulman, Yefim; W{\"a}stlund, Erik; Martucci, Leonardo A"
+  title: "Enhancing Privacy through the Visual Design of Privacy Notices: Exploring the Interplay of Curiosity, Control and Affect"
+  year: 2020
+  journal: "Sixteenth Symposium on Usable Privacy and Security (SOUPS 2020)"
+  link: "https://www.usenix.org/system/files/soups2020-kitkowska.pdf"
+
+- project: ""
+  authors: "Warner, Mark"
+  title: "Signalling and Unravelling:(Non) Disclosure of HIV Status Information in Sex-Social Apps Used by Men Who Have Sex With Men"
+  year: 2020
+  journal: "UCL (University College London)"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10099555/1/WARNER_Thesis_Submit.pdf"
+
+- project: ""
+  authors: "Warner, Mark; Maestre, Juan F; Gibbs, Jo; Chung, Chia-Fang; Blandford, Ann"
   title: "Signal Appropriation of Explicit HIV Status Disclosure Fields in Sex-Social Apps used by Gay and Bisexual Men"
-  journal: "CHI Conference on Human Factors in Computing Systems"
+  year: 2019
+  journal: "CHI '19 Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3290605.3300922"
+
+- project: ""
+  authors: "Gutmann, Andreas; Warner, Mark"
+  title: "Fight to be forgotten: Exploring the efficacy of data erasure in popular operating systems"
+  year: 2019
+  journal: "Privacy Technologies and Policy: 7th Annual Privacy Forum, APF 2019"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10069549/1/APF_2019_-_Fight_to_be_Forgotten_accepted.pdf"
+
+- project: ""
+  authors: "Warner, Mark; Wang, Victoria"
+  title: "Self-censorship in Social Networking Sites (SNSs) -- Privacy concerns, privacy awareness, perceived vulnerability and information management"
+  year: 2019
+  journal: "Journal of Information Communication and Ethics in Society"
+  link: "https://www.emerald.com/jices/article/17/4/375/222058"
+
+- project: ""
+  authors: "Patel, D; Blandford, A; Warner, M; Shawe, J; Stephenson, J"
+  title: "\"I feel like only half a man\": Online Forums as a Resource for Finding a \"New Normal\" for Men Experiencing Fertility Issues"
+  year: 2019
+  journal: "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3359184"
+
+- project: ""
+  authors: "Warner, Mark; Gutmann, Andreas; Sasse, M Angela; Blandford, Ann"
+  title: "Privacy Unraveling Around Explicit HIV Status Disclosure Fields in the Online Geosocial Hookup App Grindr"
+  year: 2018
+  journal: "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3274450"
+
+- project: ""
+  authors: "Warner, Mark; Blandford, Ann"
+  title: "Do I Really Have To Publicly Disclose My HIV Status?"
+  year: 2018
+  journal: "CHI ’18 Workshop: Moving beyond a “one-size fits all” approach: Exploring Individual Differences in Privacy"
+  link: "https://discovery.ucl.ac.uk/id/eprint/10046213/1/warner_blandford.pdf"
+
+- project: ""
+  authors: "Maestre, Juan F; Eikey, Elizabeth V; Warner, Mark; Yarosh, Svetlana; Pater, Jessica; Jacobs, Maia; Marcu, Gabriela; Shih, Patrick C"
+  title: "Conducting Research with Stigmatized Populations: Practices, Challenges, and Lessons Learned"
+  year: 2018
+  journal: "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3272973.3273003"
+
+- project: ""
+  authors: "Murmann, Patrick; Kitkowska, Agnieszka; Kumar, Poornigha Santhana; Hatamian, M; Ralien, A; Quintero, J; Abdullah, L; Mittos, A; Warner, M; Gutmann, A"
+  title: "D4. 1 User Interface Requirements"
+  year: 2017
+  journal: "Deliverable"
   link: "#"
