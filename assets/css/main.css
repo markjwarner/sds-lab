@@ -804,6 +804,10 @@ a:hover {
   margin-top: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1077,6 +1081,10 @@ a:hover {
   gap: 2rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
@@ -1348,6 +1356,16 @@ a:hover {
   padding-bottom: 1.25rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1406,6 +1424,18 @@ a:hover {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -1805,6 +1835,10 @@ a:hover {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
+
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1865,6 +1899,13 @@ a:hover {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+@media (min-width: 640px) {
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:top-6 {
     top: 1.5rem;
@@ -1872,6 +1913,14 @@ a:hover {
 
   .md\:-mt-16 {
     margin-top: -4rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:inline {
+    display: inline;
   }
 
   .md\:flex {
@@ -1890,12 +1939,28 @@ a:hover {
     height: 24rem;
   }
 
+  .md\:min-h-\[600px\] {
+    min-height: 600px;
+  }
+
   .md\:w-\[450px\] {
     width: 450px;
   }
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[380px\] {
+    width: 380px;
+  }
+
+  .md\:min-w-\[800px\] {
+    min-width: 800px;
   }
 
   .md\:grid-cols-2 {
@@ -1908,6 +1973,10 @@ a:hover {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
   }
 
   .md\:whitespace-normal {
@@ -1930,6 +1999,19 @@ a:hover {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .md\:pt-24 {
+    padding-top: 6rem;
   }
 
   .md\:text-left {
