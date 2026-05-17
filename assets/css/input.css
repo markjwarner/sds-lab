@@ -10,7 +10,7 @@
     @apply text-violetAccent font-bold transition-all duration-200;
   }
   a:hover {
-    @apply opacity-80 underline;
+    @apply opacity-80;
   }
 }
 
