@@ -925,6 +925,10 @@ a:hover {
   min-height: 110px;
 }
 
+.min-h-\[160px\] {
+  min-height: 160px;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -1986,6 +1990,10 @@ a:hover {
 
   .md\:min-h-\[600px\] {
     min-height: 600px;
+  }
+
+  .md\:min-h-\[110px\] {
+    min-height: 110px;
   }
 
   .md\:w-\[450px\] {
