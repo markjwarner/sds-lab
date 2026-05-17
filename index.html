@@ -143,37 +143,51 @@
             
             <!-- Removed hide-scrollbar and horizontal overflow for mobile -->
             <div class="w-full">
-                <!-- Added flex-col, gap-12, and scoped the min-width/height to md: -->
-                <div id="interactive-diagram" class="relative flex flex-col md:flex-row justify-between max-w-5xl mx-auto w-full md:min-w-[800px] md:min-h-[600px] py-4 md:py-10 px-0 md:px-8 gap-12 md:gap-0">
+                                <!-- Added flex-col, gap-12, and scoped the min-width/height to md: -->
+                <div id="interactive-diagram" class="relative flex flex-col md:flex-row justify-between max-w-7xl mx-auto w-full py-4 md:py-10 px-0 md:px-4 gap-12 md:gap-0">
                     
-                    <!-- Added hidden md:block to hide lines on mobile -->
                     <svg id="sankey-svg" aria-hidden="true" class="hidden md:block absolute inset-0 w-full h-full pointer-events-none z-0"></svg>
                     
-                    <!-- Updated width to w-full on mobile, md:w-[280px] on desktop -->
-                    <div id="themes-column" class="flex flex-col justify-between w-full md:w-[280px] space-y-4 z-10 shrink-0">
-                        <h3 class="text-xl font-bold text-slate-800 md:hidden mb-2 px-2">Themes</h3>
+                    <div id="themes-column" class="flex flex-col justify-between w-full md:w-[340px] space-y-6 z-10 shrink-0">
+                        <h3 class="text-2xl font-bold text-slate-800 md:hidden mb-2 px-2">Research Themes</h3>
                         {% assign valid_themes = site.themes | where_exp: "item", "item.title != nil" %}
                         {% for theme in valid_themes %}
-                        <div id="theme-{{ forloop.index }}" class="theme-node w-full py-5 px-6 rounded-[1.25rem] shadow-sm border border-slate-200/60 bg-white/80 backdrop-blur-xl hover:bg-white hover:shadow-lg hover:border-slate-300/80 cursor-pointer hover:-translate-y-1 transition-all duration-300 ease-out relative group flex items-center gap-4" 
+                        <div id="theme-{{ forloop.index }}" class="theme-node relative group w-full min-h-[110px] rounded-[1.5rem] overflow-hidden bg-slate-100 shadow-sm hover:shadow-lg border border-slate-200/60 cursor-pointer transition-all duration-500 flex flex-col justify-end p-5" 
                              onmouseenter="highlightConnections('theme', '{{ theme.title | escape }}')" 
                              onmouseleave="resetConnections()"
                              onclick="openContentModal('theme', {{ forloop.index0 }})">
-                            <div class="w-3.5 h-3.5 rounded-full shrink-0 shadow-sm" style="background-color: {{ theme.color | default: '#cbd5e1' }};"></div>
-                            <p class="text-[17px] font-semibold text-slate-900 tracking-tight relative z-10">{{ theme.title }}</p>
+                            
+                            {% if theme.img %}
+                            <img src="{{ theme.img }}" alt="{{ theme.title }}" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-all duration-700 group-hover:scale-105">
+                            {% endif %}
+                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/95 to-white/10 pointer-events-none"></div>
+                            
+                            <div class="relative z-10 flex items-center gap-3 mt-auto">
+                                <div class="w-4 h-4 rounded-full shrink-0 shadow-sm border-2 border-white" style="background-color: {{ theme.color | default: '#cbd5e1' }};"></div>
+                                <p class="text-[17px] md:text-lg font-bold text-slate-900 tracking-tight transition-colors leading-tight">{{ theme.title }}</p>
+                            </div>
                         </div>
                         {% endfor %}
                     </div>
                     
-                    <!-- Added "hidden md:flex" to hide on mobile and show as flexbox on desktop -->
-                    <div id="projects-column" class="hidden md:flex flex-col justify-center space-y-3 w-full md:w-[380px] z-10 shrink-0 pl-0 md:pl-8">
-                        <h3 class="text-xl font-bold text-slate-800 md:hidden mb-2 px-2">Projects</h3>
+                    <div id="projects-column" class="hidden md:flex flex-col justify-center space-y-5 w-full md:w-[420px] z-10 shrink-0 pl-0 md:pl-8">
                         {% assign sorted_research = site.research | sort: 'date' | reverse %}
                         {% for project in sorted_research %}
-                        <div id="project-{{ forloop.index }}" class="project-node w-full py-4 px-6 rounded-[1.25rem] shadow-sm border border-slate-200/60 bg-slate-50/80 backdrop-blur-xl hover:bg-white hover:shadow-md hover:border-slate-300/80 cursor-pointer hover:-translate-x-1 hover:scale-[1.02] transition-all duration-300 ease-out flex items-center"
+                        <div id="project-{{ forloop.index }}" class="project-node relative group w-full min-h-[110px] rounded-[1.5rem] overflow-hidden bg-slate-100 shadow-sm hover:shadow-lg border border-slate-200/60 cursor-pointer transition-all duration-500 flex flex-col justify-end p-5"
                              onmouseenter="highlightConnections('project', '{{ project.title | escape }}')" 
                              onmouseleave="resetConnections()"
                              onclick="openContentModal('research', {{ forloop.index0 }})">
-                            <p class="text-[15px] font-medium text-slate-800 leading-snug line-clamp-2" title="{{ project.title | escape }}">{{ project.title }}</p>
+                             
+                            {% if project.img %}
+                            <img src="{{ project.img }}" alt="{{ project.title }}" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-all duration-700 group-hover:scale-105">
+                            {% endif %}
+                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/95 to-white/10 pointer-events-none"></div>
+                            
+                            <div class="relative z-10 mt-auto">
+                                <p class="text-[15px] md:text-base font-bold text-slate-900 leading-snug line-clamp-2 transition-colors">{{ project.title }}</p>
+                            </div>
                         </div>
                         {% endfor %}
                     </div>
@@ -531,24 +545,28 @@
         };
 
         function buildProjectsHtml(projectsArray) {
-            return `
-                <div class="mt-16 pt-8 border-t border-slate-200/80">
-                    <h3 class="text-2xl font-bold mb-8 text-slate-900 tracking-tight">Associated Research Projects</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        ${projectsArray.map(p => `
-                            <div class="bg-slate-50 p-6 rounded-[1.25rem] border border-slate-200/60 hover:border-violetAccent/50 hover:shadow-md transition-all cursor-pointer group" onclick="openContentModal('research', ${siteData.research.findIndex(r => r.id === p.id)})">
-                                <h4 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-violetAccent transition-colors line-clamp-2">${p.title}</h4>
-                                <p class="text-sm text-slate-600 line-clamp-3">${p.desc}</p>
-                                <p class="text-xs font-bold text-violetAccent mt-4 flex items-center gap-1 uppercase tracking-wide">
-                                    View Project
-                                    <svg class="w-3 h-3 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                                </p>
+                    return `
+                        <div class="mt-16 pt-8 border-t border-slate-200/80">
+                            <h3 class="text-2xl font-bold mb-8 text-slate-900 tracking-tight">Associated Research Projects</h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                ${projectsArray.map(p => `
+                                    <div class="relative group rounded-[1.5rem] overflow-hidden bg-slate-100 shadow-sm hover:shadow-lg border border-slate-200/60 cursor-pointer transition-all duration-500 flex flex-col min-h-[16rem]" onclick="openContentModal('research', ${siteData.research.findIndex(r => r.id === p.id)})">
+                                        ${p.img ? `<img src="${p.img}" alt="${p.title}" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-all duration-700 group-hover:scale-105">` : ''}
+                                        <div class="absolute inset-0 bg-gradient-to-t from-white via-white/95 to-white/10 pointer-events-none"></div>
+                                        <div class="relative h-full flex flex-col justify-end p-6 text-slate-900 mt-auto z-10">
+                                            <h4 class="text-lg font-bold mb-2 tracking-tight leading-tight group-hover:text-violetAccent transition-colors line-clamp-2">${p.title}</h4>
+                                            <p class="text-sm text-slate-600 line-clamp-2">${p.desc}</p>
+                                            <p class="text-xs font-bold text-violetAccent mt-3 flex items-center gap-1 uppercase tracking-wide">
+                                                View Project
+                                                <svg class="w-3 h-3 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                `).join('')}
                             </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
+                        </div>
+                    `;
+                }
 
         function buildPublicationsHtml(pubsArray, title="Related Publications") {
             return `
@@ -574,30 +592,28 @@
         }
 
         function buildNewsHtml(newsArray) {
-            return `
-                <div class="mt-12 pt-10 border-t border-slate-200/80">
-                    <h3 class="text-2xl font-bold mb-6 text-slate-900 tracking-tight">In the News</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                        ${newsArray.map(n => `
-                            <div class="group flex flex-col bg-slate-50 border border-slate-200/60 rounded-[1.25rem] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 hover:bg-white transition-all duration-300 ease-out cursor-pointer" onclick="openContentModal('news', ${siteData.news.findIndex(item => item.title === n.title)})">
-                                ${n.img ? `
-                                <div class="h-32 w-full relative overflow-hidden shrink-0">
-                                    <img src="${n.img}" class="object-cover w-full h-full opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500">
-                                </div>` : ''}
-                                <div class="p-6 flex flex-col flex-1">
-                                    <div class="flex justify-between items-start mb-3">
-                                        <span class="text-violetAccent font-bold tracking-wider text-xs uppercase">${n.date}</span>
-                                        <svg class="w-4 h-4 text-slate-300 group-hover:text-violetAccent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    return `
+                        <div class="mt-12 pt-10 border-t border-slate-200/80">
+                            <h3 class="text-2xl font-bold mb-6 text-slate-900 tracking-tight">In the News</h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                ${newsArray.map(n => `
+                                    <div class="relative group rounded-[1.5rem] overflow-hidden bg-slate-100 shadow-sm hover:shadow-lg border border-slate-200/60 cursor-pointer transition-all duration-500 flex flex-col min-h-[16rem]" onclick="openContentModal('news', ${siteData.news.findIndex(item => item.title === n.title)})">
+                                        ${n.img ? `<img src="${n.img}" alt="${n.title}" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-all duration-700 group-hover:scale-105">` : ''}
+                                        <div class="absolute inset-0 bg-gradient-to-t from-white via-white/95 to-white/10 pointer-events-none"></div>
+                                        <div class="relative h-full flex flex-col justify-end p-6 text-slate-900 mt-auto z-10">
+                                            <div class="flex justify-between items-start mb-2">
+                                                <span class="text-violetAccent font-bold tracking-wider text-xs uppercase">${n.date}</span>
+                                                <svg class="w-4 h-4 text-slate-300 group-hover:text-violetAccent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                            </div>
+                                            <h4 class="text-lg font-bold mb-2 tracking-tight leading-tight group-hover:text-violetAccent transition-colors line-clamp-2">${n.title}</h4>
+                                            <p class="text-sm text-slate-600 line-clamp-2">${n.summary || ''}</p>
+                                        </div>
                                     </div>
-                                    <h4 class="text-lg font-bold text-slate-900 leading-snug mb-2 group-hover:text-violetAccent transition-colors line-clamp-2">${n.title}</h4>
-                                    <p class="text-[14px] text-slate-600 leading-relaxed line-clamp-2 mt-auto">${n.summary || ''}</p>
-                                </div>
+                                `).join('')}
                             </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
+                        </div>
+                    `;
+                }
 
         window.closeContentModal = function() {
             const modal = document.getElementById('content-modal');
