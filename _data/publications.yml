@@ -1,3 +1,19 @@
+
+- project: ""
+  authors: "Beadle, Kyle; Kieron Ivy Turk; Aliai Eusebi; Mindy Tran; Marilyne Ordekian; Enrico Mariconti; Yixin Zou; Vasek, Marie."
+  title: "SoK: a privacy framework for security research using social media data."
+  year: 2025
+  journal: "Symposium on Security and Privacy (SP), pp. 1178-1196. IEEE, 2025."
+  link: "https://ieeexplore.ieee.org/iel8/11023178/11023253/11023489.pdf"
+
+- project: ""
+  authors: "Elwahsh, Sarah; Nora Stern; Aneesha Singh; Ayobi, Amid"
+  title: "Linguistic diversity and mental well-being: co-designing custom ai chatbots with multilingual mothers."
+  year: 2025
+  journal: "Proceedings of the 7th ACM Conference on Conversational User Interfaces, pp. 1-17. 2025."
+  link: "https://dl.acm.org/doi/pdf/10.1145/3719160.3736615"
+
+
 - project: "Usable privacy in female health technologies"
   authors: "Kaleva, Ina; Frik, Alisa; Malki, Lisa; Warner, Mark; Abu-Salma, Ruba"
   title: "“I don’t think it needs to be political”: Privacy Experiences and Concerns of FemHealth App Users in the United States"
