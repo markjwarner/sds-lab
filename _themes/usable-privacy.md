@@ -1,7 +1,7 @@
 ---
-title: "Usable Privacy"
+title: "Privacy Risk, Harms, and Protections"
 color: "#9dcc89"
-desc: "A brief summary of the usable privacy theme"
+desc: "Privacy Risk, Harms, and Protections"
 img: "images/usable-privacy.png"
 ---
-Detailed information about the usable privacy theme goes here. You can write as much markdown content as you need.
+Privacy Risk, Harms, and Protections

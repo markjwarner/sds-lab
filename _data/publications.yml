@@ -1,4 +1,25 @@
 
+- project: "Understanding and Monitoring Online Platform Governance"
+  authors: "O'Brien, Catherine; Zytko, Doug; Abu-Salma, Ruba; Tanczer, Leonie Maria; Roslan, Nuur Alifah; Murdoch, Steven J.; Warner, Mark."
+  title: "“Harassing Harms: A Platform Grounded Framework for Understanding How Online Social Platforms Characterise Harassment"
+  year: 2027
+  journal: "ACM International Conference on Supporting Group Work."
+  link: ""
+
+- project: "Reimagining content report tools"
+  authors: "O'Brien, Catherine; Ferreira-Alturas, Izzy; Ayobi, Amid; Warner, Mark."
+  title: "“The chat can actually help you gauge what you're seeing“: Co-Designing an LLM-Based User Reporting Tool in the Context of Ambiguous Targeted Harassment with UK Instagram Users"
+  year: 2026
+  journal: "Proceedings of the 2026 Nordic Conference on Human-Computer Interaction."
+  link: "https://discovery.ucl.ac.uk/id/eprint/10229481/1/OBrien_NordiCHI_CoDesign_LLM_Reporting_Tool.pdf"
+
+- project: "Social Phobia Interventions for Cybersecurity Exploit Mitigation"
+  authors: "Dechant, Martin; Woo, Victoria; Tomlin, Florence; Moltrecht, Bettina; Warner, Mark."
+  title: "Anxious and Aware: Examining the Effects of Social Anxiety on Social Engineering Resilience and Vulnerability"
+  year: 2026
+  journal: "Twenty-Second Symposium on Usable Privacy and Security (SOUPS 2026) (pp. 313-332)."
+  link: "https://www.usenix.org/system/files/soups2026-dechant.pdf"
+
 - project: ""
   authors: "Beadle, Kyle; Kieron Ivy Turk; Aliai Eusebi; Mindy Tran; Marilyne Ordekian; Enrico Mariconti; Yixin Zou; Vasek, Marie."
   title: "SoK: a privacy framework for security research using social media data."
@@ -42,21 +63,21 @@
   journal: "Journal of Human-Computer Studies"
   link: "https://www.sciencedirect.com/science/article/pii/S1071581925000254"
 
-- project: ""
+- project: "Understanding People and Comunities Online"
   authors: "Beadle, Kyle; Warner, Mark; Vasek, Marie"
   title: "“Edit: I’m sorry for being offensive, this is getting downvoted and I feel terrible”: Implicit Social Norms as Governance in Identity-Based Communities"
   year: 2025
   journal: "Proceedings of the ACM on Human-Computer Interaction"
   link: "https://dl.acm.org/doi/pdf/10.1145/3710900"
 
-- project: "Reimagining content report tools"
+- project: "Understanding and Monitoring Online Platform Governance"
   authors: "O'Brien, Catherine; Roslan, Nuur Alifah; Abu-Salma, Ruba; Murdoch, Steven; Zytko, Douglas; Warner, Mark"
   title: "Online Dating Platform Safeguards and Self-Protection: How Dating Platforms Characterise, Respond to, and Safeguard Against Harms"
   year: 2025
   journal: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
   link: "https://dl.acm.org/doi/pdf/10.1145/3706599.3719825"
 
-- project: ""
+- project: "Exploring Misinformation Correction Within Close Tie Networks"
   authors: "Scott, Lauren; Warner, Mark; Coventry, Lynne; Cecchinato, Marta E"
   title: "Accidental Spreaders: How Different Roles Interact During Misinformation Discussions"
   year: 2025
@@ -112,14 +133,14 @@
   journal: "ECSCW--European Conference on Computer-Supported Cooperative Work"
   link: "https://dl.eusset.eu/bitstreams/3759163b-beb4-4443-ae1f-aeea22b4afab/download"
 
-- project: ""
+- project: "Exploring Misinformation Correction Within Close Tie Networks"
   authors: "Scott, Lauren; E. Cecchinato, Marta; Coventry, Lynne; Warner, Mark"
   title: "Evaluating the Effects of Culture and Relationship Strength on Misinformation Challenging Behaviours Within the UK"
   year: 2023
   journal: "IFIP Conference on Human-Computer Interaction"
   link: "https://discovery.ucl.ac.uk/id/eprint/10190868/1/Warner_Evaluating%20the%20Effects%20of%20Culture%20and%20Relationship%20Strength%20on%20Misinformation%20Challenging%20Behaviours%20Within%20the%20UK.pdf"
 
-- project: ""
+- project: "Exploring Misinformation Correction Within Close Tie Networks"
   authors: "Scott, Lauren; Coventry, Lynne; Cecchinato, Marta E; Warner, Mark"
   title: "“I figured her feeling a little bit bad was worth it to not spread that kind of hate”: Exploring how UK families discuss and challenge misinformation"
   year: 2023

@@ -1,7 +1,7 @@
 ---
-title: "Platform Governance"
+title: "Transparent Platform Governance"
 color: "#FFC352"
-desc: "A brief summary of the platform governance"
+desc: "How can we better understand the monitor the governance of online plarforms, to enhance platform transparency and accountability? "
 img: "images/platform-governance.png"
 ---
-Detailed information about the platform governance theme goes here. You can write as much markdown content as you need.
+Platform governance encompasses the technical infrastructures and the human decision-making processes that shape online spaces and communities, blending private, corporate norms with public regulatory interests and legal frameworks. The governance of platforms can have significant impact on individuals, groups and societies, as platforms are increasingly mediating our communications, relationships, and broader public discourse. When governance is poorly designed, it can result in the amplification of harms and harmful content such as misinformation spread, hate speech, and self-harm content. Yet, when they are designed well, they can foster safer environments and communities, freedom to express without fear of harm, and transparency and accountability. This theme is focused on understanding the governance stance of platforms, and creating tools and resources to enhance the transpancy of platform governance so platforms can be more accountable for their actions. 

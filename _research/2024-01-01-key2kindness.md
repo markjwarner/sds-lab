@@ -2,7 +2,7 @@
 title: "Designing proactive content moderation mechanisms"
 people: ["Mark Warner"]
 date: 2024-01-01
-themes: ["Technical Governance Mechanisms", "Usable Privacy"]
+themes: ["User Centered Content Moderation"]
 desc: "This project aimed to understanding proactive content moderation, and how this form of moderation can be embedded responsibly and effectively within different communication platforms."
 img: "https://9to5mac.com/wp-content/uploads/sites/6/2018/05/iphone-x-gboard-keyboard.jpg?quality=82&strip=all"
 ---
