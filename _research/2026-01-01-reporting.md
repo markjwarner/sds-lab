@@ -1,5 +1,5 @@
 ---
-title: "Reimagining content report tools"
+title: "Reimagining Content Report Tools"
 people: ["Mark Warner", "Catherine O'Brien", "Nuur Alifah Roslan"]
 date: 2026-01-01
 themes: ["User Centered Content Moderation"]
