@@ -1,7 +1,7 @@
 ---
-title: "Privacy Risk, Harms, and Protections"
+title: "Privacy Risks, Harms, and Protections"
 color: "#9dcc89"
-desc: "Privacy Risk, Harms, and Protections"
+desc: "Privacy Risks, Harms, and Protections"
 img: "images/usable-privacy.png"
 ---
 Privacy Risk, Harms, and Protections
