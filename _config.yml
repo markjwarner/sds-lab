@@ -1,5 +1,5 @@
-url: "https://markjwarner.github.io"
-baseurl: "/sds-lab" # This MUST match your new repository name exactly
+url: "https://sdslab.uk"
+baseurl: ""  # Must be EMPTY because the domain is now pointing directly to this project root
 
 title: "UCL's Safer Digital Services Lab"
 description: "Creating safer online digital services through research."
