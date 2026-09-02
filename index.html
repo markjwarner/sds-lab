@@ -109,7 +109,7 @@
 
     <section id="people" class="pt-32 pb-16 px-6 bg-slate-50">
         <div class="max-w-7xl mx-auto fade-in-section">
-            <h2 class="text-4xl font-bold mb-16 tracking-tight text-center md:text-left">Our Team</h2>
+            <h2 class="text-4xl font-bold mb-16 tracking-tight text-center md:text-left">Our People</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-20" id="people-grid">
                 {% for person in site.people %}
                 <div class="group relative cursor-pointer" onclick="openContentModal('people', {{ forloop.index0 }})">
@@ -132,7 +132,7 @@
 
     <section id="previous-people" class="pt-16 pb-32 px-6 bg-slate-50">
         <div class="max-w-7xl mx-auto fade-in-section">
-            <h2 class="text-3xl font-bold mb-16 tracking-tight text-center md:text-left text-slate-700">Previous Team Members</h2>
+            <h2 class="text-3xl font-bold mb-16 tracking-tight text-center md:text-left text-slate-700">Previous Lab Members</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-20" id="previous-people-grid">
                 {% for person in site.previous_people %}
                 <div class="group relative cursor-pointer" onclick="openContentModal('previousPeople', {{ forloop.index0 }})">
