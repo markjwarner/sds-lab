@@ -25,7 +25,21 @@
 
     <style>
 
-        /* Restores bullet points for Markdown lists inside the modal */
+/* --- GLOBAL BRAND COLOR OVERRIDE --- */
+        .text-violetAccent {
+            color: #6C46A8 !important;
+        }
+        .bg-violetAccent,
+        .hover\:bg-violetAccent:hover {
+            background-color: #6C46A8 !important;
+        }
+        nav a, 
+        #mobile-menu a, 
+        .hover\:text-violetAccent:hover {
+            color: #6C46A8 !important;
+        }
+        /* ---------------------------------- */
+
         #modal-body ul {
             list-style-type: disc;
             padding-left: 1.5rem;
@@ -57,7 +71,7 @@
         /* Scoped modal links to avoid globally overwriting navigation */
         #modal-body a, 
         #modal-body p a {
-            color: #9933FF !important;
+            color: #6C46A8 !important;
             font-weight: 700 !important;
             display: inline;
             transition: opacity 0.2s;
@@ -89,10 +103,15 @@
     <div class="fixed top-4 md:top-6 left-0 right-0 z-50 flex flex-col items-center pointer-events-none px-4">
         <nav class="pointer-events-auto bg-white/40 backdrop-blur-md border border-white/60 shadow-lg shadow-slate-900/5 rounded-3xl md:rounded-full px-6 py-4 w-full max-w-5xl transition-all duration-300 hover:bg-white/60 flex flex-col md:flex-row justify-between items-center relative overflow-hidden">
             <div class="flex justify-between items-center w-full md:w-auto">
-                <a href="#" class="font-extrabold tracking-tight text-base md:text-xl text-violetAccent drop-shadow-sm transition-all hover:opacity-80 pr-2" id="nav-logo">
-                    <span class="md:hidden">Safer Digital Services Lab</span>
-                    <span class="hidden md:inline">{{ site.title }}</span>
+
+                  <a href="#" class="transition-all hover:opacity-80 pr-2 flex items-center gap-3" id="nav-logo">
+                    <img src="{{ '/assets/logo.png' | relative_url }}" alt="Safer Digital Services Lab Symbol" style="height: 32px;" class="w-auto shrink-0">
+                    <span class="font-extrabold tracking-tight text-base md:text-xl drop-shadow-sm">
+                        <span class="md:hidden">Safer Digital Services Lab</span>
+                        <span class="hidden md:inline">{{ site.title }}</span>
+                    </span>
                 </a>
+
                 <button id="mobile-menu-btn" aria-label="Toggle mobile menu" class="md:hidden text-slate-700 hover:text-violetAccent focus:outline-none p-1 transition-colors">
                     <svg aria-hidden="true" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                 </button>
