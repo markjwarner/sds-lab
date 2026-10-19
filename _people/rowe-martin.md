@@ -1,7 +1,7 @@
 ---
 name: "Martin Rowe"
 role: "Doctoral Researcher"
-short: "Exploring how dating apps used by LGBTQ people shape ofline chemsex related risks."
+short: "Exploring how dating apps used by LGBTQ people shape offline chemsex related risks."
 img: "images/martin-rowe.jpg"
 ---
 I’m a PhD researcher at UCL in the EPSRC Centre for Doctoral Training in Cyber-Physical Risk, based in Computer Science, Psychology and Language Sciences, and Security and Crime Science.
