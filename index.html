@@ -147,8 +147,8 @@
                     <div class="aspect-square mb-6 rounded-[2rem] overflow-hidden shadow-lg border-4 border-slate-50 transition-all duration-500 relative flex flex-col justify-center items-center">
                         <img src="{{ person.img }}" alt="{{ person.name }}" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:blur-sm transition-all duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 p-6 flex flex-col items-center justify-center bg-gradient-to-t from-violetAccent/95 via-violetAccent/80 to-violetAccent/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-center">
-                            <p class="text-white text-sm md:text-base font-medium leading-relaxed drop-shadow-md line-clamp-4">{{ person.short | default: 'View Profile' }}</p>
-                            <p class="text-white/90 text-xs font-bold mt-4 uppercase tracking-wide">Read full bio &rarr;</p>
+                            <p class="text-black text-sm md:text-base font-medium leading-relaxed drop-shadow-md line-clamp-4">{{ person.short | default: 'View Profile' }}</p>
+                            <p class="text-black/90 text-xs font-bold mt-4 uppercase tracking-wide">Read full bio &rarr;</p>
                         </div>
                     </div>
                     <div class="text-center relative">
