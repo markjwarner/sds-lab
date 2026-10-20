@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        violetAccent: '#FFFFFF',
+        violetAccent: '#6C46A8',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
